@@ -35,6 +35,9 @@ var extract_data_os = function(doc){
 }
 	
 module.exports = {
+	/**
+	* from os.stats.vue
+	**/
 	extract_data_os: extract_data_os,
 	
 	extract_data_os_historical: function (doc){
@@ -66,4 +69,8 @@ module.exports = {
 
 		return {keys: keys, path: path, host: host}
 	}
+	/**
+	* from os.stats.vue
+	**/
+
 }
