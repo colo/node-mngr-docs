@@ -54,7 +54,7 @@ module.exports = {
 
 		// let {keys, path, host} = this.extract_data_os(doc)
 		let {keys, path, host} = extract_data_os(doc)
-		path = path.replace('historical', type)
+		path = path.replace('historical/os', 'os/'+type)
 
 		Object.each(keys, function(data, key){
 			if(Array.isArray(data)){
